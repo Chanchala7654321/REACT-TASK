@@ -1,0 +1,36 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: #252930;
+  padding: 3rem;
+  color: white;
+}
+
+.content .hero h2 {
+  color: green;
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+.content .hero p:nth-child(3) {
+  font-weight: bolder;
+}
+.content{
+  padding: 3rem;
+  font-size: 1.5em;
+}
+
+.content{
+  line-height: 3rem;
+}
+
+.footer{
+  background-color: #252930;
+  padding: 3rem;
+  color: white;
+
+}
