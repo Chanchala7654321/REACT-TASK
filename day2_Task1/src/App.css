@@ -1,0 +1,107 @@
+/* Reset default styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+  border-radius: 30px;
+  line-height: 1.5;
+  width: 25%;
+  height: 70%;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  gap: 16px;
+}
+
+/* Profile */
+.profileSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.profileSection img {
+  width: 10vw;
+  height: 10vw;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.profileSection h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.profileSection p {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Status section */
+.statusSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin: 8px 0;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status h3 {
+  line-height: 1.5em;
+}
+
+.status p {
+  font-weight: bold;
+}
+
+/* Action buttons */
+.actionSection {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.actionSection button {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.actionSection button:first-child {
+  background-color: #4cac4f;
+  color: white;
+}
+
+.actionSection button:last-child {
+  background-color: #2391eb;
+  color: white;
+}
+
+.actionSection button:hover {
+  background-color: cadetblue;
+}
