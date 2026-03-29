@@ -1,0 +1,20 @@
+import React from 'react'
+
+function ImgTen() {
+    return (
+
+        <div>
+            <a href="https://boxbot6.github.io/simple-website-template-with-banner-v3/images/card-5-march-1b-cigarette-cards-john-player-and-sons-a-nature-calendar.jpg">
+                <img
+                    src="https://boxbot6.github.io/simple-website-template-with-banner-v3/thumbnails/card-5-march-1b-cigarette-cards-john-player-and-sons-a-nature-calendar-thumb.jpg"
+                    width="100%"
+                />
+                <br />
+                <br />
+                March No. 1. (back)
+            </a>
+        </div>
+    )
+}
+
+export default ImgTen
