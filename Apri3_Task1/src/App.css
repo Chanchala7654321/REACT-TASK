@@ -1,0 +1,38 @@
+
+.itemBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+
+.post {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: rgb(214, 187, 146); 
+  width: 350px; 
+  border-radius: 10px;
+}
+
+.newJob, .featuredBadge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block; 
+}
+
+.newJob {
+  background-color: #5ba4a4;
+  color: white;
+}
+
+.featuredBadge {
+  background-color: #2b3939;
+  color: white;
+}
+
