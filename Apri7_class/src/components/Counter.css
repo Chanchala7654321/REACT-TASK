@@ -1,0 +1,7 @@
+.counterContainer {
+    border: 2px solid #333; 
+    border-radius: 10px;    
+    padding: 20px;         
+    margin-bottom: 20px;     
+    width: 15%;
+}

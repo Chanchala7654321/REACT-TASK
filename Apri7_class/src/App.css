@@ -1,0 +1,12 @@
+.dark {
+  background-color: #222;
+  color: white;
+  height: 100vh;
+}
+
+#ChanBtn button {
+  background-color: #444;
+  color: white;
+  border: 1px solid #666;
+}
+
