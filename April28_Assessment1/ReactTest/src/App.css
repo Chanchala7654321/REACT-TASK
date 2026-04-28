@@ -1,0 +1,53 @@
+
+
+.header {
+  background-color: darkgoldenrod;
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+}
+
+
+
+.footer {
+  background-color: darkgoldenrod;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+.JobBoard {
+  width: 100vw;
+  margin: 2rem auto;
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+
+.group1 h1 {
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.JobBoard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px; 
+  padding: 24px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+
+
+
