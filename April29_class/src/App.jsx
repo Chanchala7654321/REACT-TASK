@@ -28,7 +28,6 @@ function reducer(state, action) {
 }
 
 function App() {
-  // Initialize useReducer here
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const handleChange = (e) => {
@@ -47,7 +46,7 @@ function App() {
           <label>User Name: </label>
           <input
             type="text"
-            name="userName" // Added name attribute
+            name="userName"
             value={state.formData.userName}
             onChange={handleChange}
           />
