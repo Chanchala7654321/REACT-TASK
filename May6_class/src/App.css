@@ -1,0 +1,32 @@
+.counter-box {
+  border: 2px solid;
+  padding: 15px;
+  text-align: center;
+  width: 150px; 
+  margin: 10px;
+  display: inline-block; 
+  border-radius: 8px;
+}
+
+.button-group {
+  display: flex;
+  gap: 5px; 
+  justify-content: center;
+}
+
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+}
+
+button {
+  padding: 4px 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
