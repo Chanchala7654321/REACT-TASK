@@ -23,7 +23,7 @@ function reducer(state, action) {
     case "GO_BACK":
       return { ...state, step: state.step - 1 };
     default:
-      return state;
+      return "";
   }
 }
 
@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div>
       <h2>Step {state.step} of 2</h2>
 
       {state.step === 1 && (
@@ -64,7 +64,7 @@ function App() {
             onChange={handleChange}
           />
           <button onClick={() => dispatch({ type: "GO_BACK" })}>Back</button>
-          <button onClick={() => console.log("Final Data: ", state.formData)}>
+          <button onClick={() => console.log(state.formData)}>
             Submit
           </button>
         </div>
