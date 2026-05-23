@@ -1,0 +1,33 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  list-style: none;
+  background-color: #814e4e;
+  padding: 15px 0;
+}
+
+
+.navLinks li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s ease;
+  padding: 8px 14px;
+  border-radius: 6px;
+}
+
+
+.navLinks li a:hover {
+  background-color: #02bbd3;
+}
